@@ -1,0 +1,2311 @@
+--ANYA LAST BUILD
+--THX FOR USING ANYA UI
+
+local UI = {
+	UI = Instance.new("ScreenGui"),
+	main = Instance.new("Frame"),
+	UICorner = Instance.new("UICorner"),
+	close = Instance.new("Frame"),
+	UICorner_2 = Instance.new("UICorner"),
+	ImageButton = Instance.new("ImageButton"),
+	up = Instance.new("Frame"),
+	UICorner_3 = Instance.new("UICorner"),
+	TextLabel = Instance.new("TextLabel"),
+	UITextSizeConstraint = Instance.new("UITextSizeConstraint"),
+	ImageLabel = Instance.new("ImageLabel"),
+	all = Instance.new("Frame"),
+	UICorner_4 = Instance.new("UICorner"),
+	executor = Instance.new("Frame"),
+	UICorner_5 = Instance.new("UICorner"),
+	exe = Instance.new("TextButton"),
+	UICorner_6 = Instance.new("UICorner"),
+	UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint"),
+	cle = Instance.new("TextButton"),
+	UICorner_7 = Instance.new("UICorner"),
+	UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint"),
+	co = Instance.new("TextButton"),
+	UICorner_8 = Instance.new("UICorner"),
+	UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint"),
+	p = Instance.new("TextButton"),
+	UICorner_9 = Instance.new("UICorner"),
+	UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint"),
+	ScrollingFrame = Instance.new("ScrollingFrame"),
+	UICorner_10 = Instance.new("UICorner"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint"),
+	Source = Instance.new("TextBox"),
+	UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint"),
+	Frame = Instance.new("Frame"),
+	lol = Instance.new("TextLabel"),
+	UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint"),
+	Comments_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint"),
+	Globals_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint"),
+	Keywords_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint"),
+	Numbers_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint"),
+	RemoteHighlight_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint"),
+	Strings_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint"),
+	Tokens_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint"),
+	DisplayCode = Instance.new("TextLabel"),
+	UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint"),
+	console = Instance.new("Frame"),
+	UICorner_11 = Instance.new("UICorner"),
+	Console = Instance.new("Frame"),
+	Name = Instance.new("TextLabel"),
+	UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint"),
+	Scroller = Instance.new("ScrollingFrame"),
+	UIListLayout = Instance.new("UIListLayout"),
+	_Line_ = Instance.new("TextLabel"),
+	UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint"),
+	Buttons = Instance.new("Folder"),
+	Modes = Instance.new("Folder"),
+	Warn = Instance.new("TextButton"),
+	UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint"),
+	Print = Instance.new("TextButton"),
+	UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint"),
+	Error = Instance.new("TextButton"),
+	UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint"),
+	Info = Instance.new("TextButton"),
+	UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint"),
+	BottomConsole = Instance.new("Folder"),
+	Clear = Instance.new("TextButton"),
+	UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint"),
+	Copy = Instance.new("TextButton"),
+	UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint"),
+	Save = Instance.new("TextButton"),
+	UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint"),
+	UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint"),
+	search = Instance.new("Frame"),
+	UICorner_12 = Instance.new("UICorner"),
+	UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint"),
+	ScriptFinder = Instance.new("Frame"),
+	Frame_2 = Instance.new("Frame"),
+	UICorner_13 = Instance.new("UICorner"),
+	TextButton = Instance.new("TextButton"),
+	UICorner_14 = Instance.new("UICorner"),
+	TextBox = Instance.new("TextBox"),
+	UICorner_15 = Instance.new("UICorner"),
+	UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint"),
+	ScrollingFrame_2 = Instance.new("ScrollingFrame"),
+	UICorner_16 = Instance.new("UICorner"),
+	Folder = Instance.new("Folder"),
+	Frame_3 = Instance.new("Frame"),
+	UICorner_17 = Instance.new("UICorner"),
+	delete = Instance.new("ImageButton"),
+	load = Instance.new("ImageButton"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	ImageLabel_2 = Instance.new("ImageLabel"),
+	UICorner_18 = Instance.new("UICorner"),
+	copy = Instance.new("ImageButton"),
+	UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint"),
+	UIListLayout_2 = Instance.new("UIListLayout"),
+	settings = Instance.new("Frame"),
+	UICorner_19 = Instance.new("UICorner"),
+	UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint"),
+	ScriptHub = Instance.new("Frame"),
+	Frame_4 = Instance.new("Frame"),
+	UICorner_20 = Instance.new("UICorner"),
+	TextButton_2 = Instance.new("TextButton"),
+	UICorner_21 = Instance.new("UICorner"),
+	nm = Instance.new("TextBox"),
+	UICorner_22 = Instance.new("UICorner"),
+	UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint"),
+	sr = Instance.new("TextBox"),
+	UICorner_23 = Instance.new("UICorner"),
+	UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	UITextSizeConstraint_29 = Instance.new("UITextSizeConstraint"),
+	ScrollingFrame_3 = Instance.new("ScrollingFrame"),
+	UICorner_24 = Instance.new("UICorner"),
+	Frame_5 = Instance.new("Frame"),
+	UICorner_25 = Instance.new("UICorner"),
+	UIListLayout_3 = Instance.new("UIListLayout"),
+	Folder_2 = Instance.new("Folder"),
+	Frame_6 = Instance.new("Frame"),
+	UICorner_26 = Instance.new("UICorner"),
+	x = Instance.new("ImageButton"),
+	p_2 = Instance.new("ImageButton"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	UITextSizeConstraint_30 = Instance.new("UITextSizeConstraint"),
+	c = Instance.new("ImageButton"),
+	UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint"),
+	TextButton_3 = Instance.new("TextButton"),
+	UICorner_27 = Instance.new("UICorner"),
+	TextBox_2 = Instance.new("TextBox"),
+	UICorner_28 = Instance.new("UICorner"),
+	home = Instance.new("Frame"),
+	UICorner_29 = Instance.new("UICorner"),
+	plr = Instance.new("Frame"),
+	UICorner_30 = Instance.new("UICorner"),
+	ImageLabel_3 = Instance.new("ImageLabel"),
+	UICorner_31 = Instance.new("UICorner"),
+	ginfo = Instance.new("Frame"),
+	UICorner_32 = Instance.new("UICorner"),
+	ImageLabel_4 = Instance.new("ImageLabel"),
+	UICorner_33 = Instance.new("UICorner"),
+	gname = Instance.new("TextLabel"),
+	UITextSizeConstraint_31 = Instance.new("UITextSizeConstraint"),
+	UICorner_34 = Instance.new("UICorner"),
+	guser = Instance.new("TextLabel"),
+	UITextSizeConstraint_32 = Instance.new("UITextSizeConstraint"),
+	UICorner_35 = Instance.new("UICorner"),
+	fps = Instance.new("TextLabel"),
+	UITextSizeConstraint_33 = Instance.new("UITextSizeConstraint"),
+	UICorner_36 = Instance.new("UICorner"),
+	ping = Instance.new("TextLabel"),
+	UITextSizeConstraint_34 = Instance.new("UITextSizeConstraint"),
+	UICorner_37 = Instance.new("UICorner"),
+	plrs = Instance.new("TextLabel"),
+	UITextSizeConstraint_35 = Instance.new("UITextSizeConstraint"),
+	UICorner_38 = Instance.new("UICorner"),
+	info = Instance.new("Frame"),
+	UICorner_39 = Instance.new("UICorner"),
+	u = Instance.new("TextLabel"),
+	UITextSizeConstraint_36 = Instance.new("UITextSizeConstraint"),
+	d = Instance.new("TextLabel"),
+	UITextSizeConstraint_37 = Instance.new("UITextSizeConstraint"),
+	t = Instance.new("TextLabel"),
+	UITextSizeConstraint_38 = Instance.new("UITextSizeConstraint"),
+	da = Instance.new("TextLabel"),
+	UITextSizeConstraint_39 = Instance.new("UITextSizeConstraint"),
+	c_2 = Instance.new("Frame"),
+	UICorner_40 = Instance.new("UICorner"),
+	ImageLabel_5 = Instance.new("ImageLabel"),
+	UICorner_41 = Instance.new("UICorner"),
+	cr = Instance.new("TextLabel"),
+	UITextSizeConstraint_40 = Instance.new("UITextSizeConstraint"),
+	UICorner_42 = Instance.new("UICorner"),
+	c_3 = Instance.new("Frame"),
+	UICorner_43 = Instance.new("UICorner"),
+	ImageLabel_6 = Instance.new("ImageLabel"),
+	UICorner_44 = Instance.new("UICorner"),
+	cr_2 = Instance.new("TextLabel"),
+	UITextSizeConstraint_41 = Instance.new("UITextSizeConstraint"),
+	UICorner_45 = Instance.new("UICorner"),
+	c_4 = Instance.new("Frame"),
+	UICorner_46 = Instance.new("UICorner"),
+	ImageLabel_7 = Instance.new("ImageLabel"),
+	UICorner_47 = Instance.new("UICorner"),
+	cr_3 = Instance.new("TextLabel"),
+	UITextSizeConstraint_42 = Instance.new("UITextSizeConstraint"),
+	UICorner_48 = Instance.new("UICorner"),
+	UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint"),
+	UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint"),
+	l8327558235238528 = Instance.new("Frame"),
+	UICorner_49 = Instance.new("UICorner"),
+	UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint"),
+	left = Instance.new("Frame"),
+	UICorner_50 = Instance.new("UICorner"),
+	logo = Instance.new("Frame"),
+	UICorner_51 = Instance.new("UICorner"),
+	ImageLabel_8 = Instance.new("ImageLabel"),
+	Executor = Instance.new("ImageButton"),
+	Console_2 = Instance.new("ImageButton"),
+	search_2 = Instance.new("ImageButton"),
+	settings_2 = Instance.new("ImageButton"),
+	home_2 = Instance.new("ImageButton"),
+	UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint"),
+	ImageButton_2 = Instance.new("ImageButton"),
+	UICorner_52 = Instance.new("UICorner"),
+	UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint"),
+	UIStroke = Instance.new("UIStroke"),
+	UIStroke_2 = Instance.new("UIStroke"),
+	UIStroke_3 = Instance.new("UIStroke"),
+	UIStroke_4 = Instance.new("UIStroke"),
+	UIStroke_5 = Instance.new("UIStroke"),
+	UIStroke_6 = Instance.new("UIStroke"),
+	UIStroke_7 = Instance.new("UIStroke"),
+	UIStroke_8 = Instance.new("UIStroke"),
+	UIStroke_9 = Instance.new("UIStroke"),
+	UIStroke_10 = Instance.new("UIStroke"),
+	UIStroke_11 = Instance.new("UIStroke"),
+	UIStroke_12 = Instance.new("UIStroke"),
+	UIStroke_13 = Instance.new("UIStroke"),
+	UIStroke_14 = Instance.new("UIStroke"),
+	UIStroke_15 = Instance.new("UIStroke"),
+	UIStroke_16 = Instance.new("UIStroke"),
+	UIStroke_17 = Instance.new("UIStroke"),
+	UIStroke_18 = Instance.new("UIStroke"),
+	UIStroke_19 = Instance.new("UIStroke"),
+	UIStroke_20 = Instance.new("UIStroke"),
+}
+
+--Properties:
+
+UI.UI.Name = "UI"
+UI.UI.Parent = game.CoreGui
+UI.UI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.main.Name = "main"
+UI.main.Parent = UI.UI
+UI.main.BackgroundColor3 = Color3.fromRGB(16, 15, 16)
+UI.main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.main.BorderSizePixel = 0
+UI.main.Position = UDim2.new(0.220244199, 0, 0.212656349, 0)
+UI.main.Size = UDim2.new(0.559381962, 0, 0.607782364, 0)
+
+UI.UICorner.CornerRadius = UDim.new(0, 5)
+UI.UICorner.Parent = UI.main
+
+UI.close.Name = "close"
+UI.close.Parent = UI.main
+UI.close.BackgroundColor3 = Color3.fromRGB(20, 21, 20)
+UI.close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.close.BorderSizePixel = 0
+UI.close.Position = UDim2.new(0.948327482, 0, -0.12432494, 0)
+UI.close.Size = UDim2.new(0.0515806973, 0, 0.0878186971, 0)
+
+UI.UICorner_2.Parent = UI.close
+
+UI.ImageButton.Parent = UI.close
+UI.ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageButton.BackgroundTransparency = 0.990
+UI.ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageButton.BorderSizePixel = 0
+UI.ImageButton.Size = UDim2.new(1, 0, 1, 0)
+UI.ImageButton.Image = "rbxassetid://15807981955"
+
+UI.up.Name = "up"
+UI.up.Parent = UI.main
+UI.up.BackgroundColor3 = Color3.fromRGB(20, 21, 20)
+UI.up.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.up.BorderSizePixel = 0
+UI.up.Position = UDim2.new(-0.000283239671, 0, -0.12432494, 0)
+UI.up.Size = UDim2.new(0.891846895, 0, 0.0878186971, 0)
+
+UI.UICorner_3.Parent = UI.up
+
+UI.TextLabel.Parent = UI.up
+UI.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel.BackgroundTransparency = 1.000
+UI.TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextLabel.BorderSizePixel = 0
+UI.TextLabel.Position = UDim2.new(0.062000446, 0, 0, 0)
+UI.TextLabel.Size = UDim2.new(1, 0, 1, 0)
+UI.TextLabel.Font = Enum.Font.Unknown
+UI.TextLabel.Text = "Phantom Executor I V1"
+UI.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel.TextScaled = false
+UI.TextLabel.TextSize = 10.000
+UI.TextLabel.TextWrapped = true
+UI.TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint.Parent = UI.TextLabel
+UI.UITextSizeConstraint.MaxTextSize = 10
+
+UI.ImageLabel.Parent = UI.up
+UI.ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel.BackgroundTransparency = 1.000
+UI.ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel.BorderSizePixel = 0
+UI.ImageLabel.Position = UDim2.new(0.00632135198, 0, 0.0967741907, 0)
+UI.ImageLabel.Size = UDim2.new(0.0482166335, 0, 0.806451619, 0)
+UI.ImageLabel.Image = "rbxassetid://15782053121"
+
+UI.all.Name = "all"
+UI.all.Parent = UI.main
+UI.all.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UI.all.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.all.BorderSizePixel = 0
+UI.all.Position = UDim2.new(0.0255820081, 0, 0.0327149741, 0)
+UI.all.Size = UDim2.new(0.941763699, 0, 0.909348428, 0)
+
+UI.UICorner_4.Parent = UI.all
+
+UI.executor.Name = "executor"
+UI.executor.Parent = UI.all
+UI.executor.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UI.executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.executor.BorderSizePixel = 0
+UI.executor.Size = UDim2.new(1.0010072, 0, 0.853595495, 0)
+UI.executor.Visible = false
+
+SC999 = Instance.new("LocalScript", UI.executor);
+UI.UICorner_5.Parent = UI.executor
+
+UI.exe.Name = "exe"
+UI.exe.Parent = UI.executor
+UI.exe.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.exe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.exe.BorderSizePixel = 0
+UI.exe.Position = UDim2.new(0.0282401089, 0, 1.04136467, 0)
+UI.exe.Size = UDim2.new(0.183560699, 0, 0.0912394971, 0)
+UI.exe.Font = Enum.Font.Unknown
+UI.exe.Text = "Execute"
+UI.exe.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.exe.TextScaled = false
+UI.exe.TextSize = 10.000
+UI.exe.TextWrapped = true
+
+UI.UICorner_6.Parent = UI.exe
+
+UI.UITextSizeConstraint_2.Parent = UI.exe
+UI.UITextSizeConstraint_2.MaxTextSize = 10
+
+UI.cle.Name = "cle"
+UI.cle.Parent = UI.executor
+UI.cle.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.cle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.cle.BorderSizePixel = 0
+UI.cle.Position = UDim2.new(0.270122349, 0, 1.04136467, 0)
+UI.cle.Size = UDim2.new(0.137670532, 0, 0.0912394971, 0)
+UI.cle.Font = Enum.Font.Unknown
+UI.cle.Text = "Clear"
+UI.cle.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.cle.TextScaled = false
+UI.cle.TextSize = 10.000
+UI.cle.TextWrapped = true
+
+UI.UICorner_7.Parent = UI.cle
+
+UI.UITextSizeConstraint_3.Parent = UI.cle
+UI.UITextSizeConstraint_3.MaxTextSize = 10
+
+UI.co.Name = "co"
+UI.co.Parent = UI.executor
+UI.co.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.co.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.co.BorderSizePixel = 0
+UI.co.Position = UDim2.new(0.475268692, 0, 1.04136467, 0)
+UI.co.Size = UDim2.new(0.141200542, 0, 0.0912394971, 0)
+UI.co.Font = Enum.Font.Unknown
+UI.co.Text = "Copy"
+UI.co.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.co.TextScaled = false
+UI.co.TextSize = 10.000
+UI.co.TextWrapped = true
+
+UI.UICorner_8.Parent = UI.co
+
+UI.UITextSizeConstraint_4.Parent = UI.co
+UI.UITextSizeConstraint_4.MaxTextSize = 10
+
+UI.p.Name = "p"
+UI.p.Parent = UI.executor
+UI.p.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+UI.p.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.p.BorderSizePixel = 0
+UI.p.Position = UDim2.new(0.760917187, 0, 1.04046702, 0)
+UI.p.Size = UDim2.new(0.210035801, 0, 0.0912394971, 0)
+UI.p.Font = Enum.Font.Unknown
+UI.p.Text = "ClipBoard"
+UI.p.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.p.TextScaled = false
+UI.p.TextSize = 10.000
+UI.p.TextWrapped = true
+
+UI.UICorner_9.Parent = UI.p
+
+UI.UITextSizeConstraint_5.Parent = UI.p
+UI.UITextSizeConstraint_5.MaxTextSize = 10
+
+UI.ScrollingFrame.Parent = UI.executor
+UI.ScrollingFrame.Active = true
+UI.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
+UI.ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ScrollingFrame.BorderSizePixel = 0
+UI.ScrollingFrame.Position = UDim2.new(-0.00216590823, 0, 0.0111345463, 0)
+UI.ScrollingFrame.Size = UDim2.new(0.999873936, 0, 0.97078979, 0)
+UI.ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
+
+UI.UICorner_10.Parent = UI.ScrollingFrame
+
+UI.TextLabel_2.Parent = UI.ScrollingFrame
+UI.TextLabel_2.BackgroundColor3 = Color3.fromRGB(31, 30, 31)
+UI.TextLabel_2.BackgroundTransparency = 1.000
+UI.TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextLabel_2.BorderSizePixel = 0
+UI.TextLabel_2.Size = UDim2.new(0.101999998, 0, 2, 0)
+UI.TextLabel_2.Font = Enum.Font.Code
+UI.TextLabel_2.Text = "1"
+UI.TextLabel_2.TextColor3 = Color3.fromRGB(157, 155, 157)
+UI.TextLabel_2.TextScaled = false
+UI.TextLabel_2.TextSize = 18.000
+UI.TextLabel_2.TextWrapped = true
+UI.TextLabel_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_6.Parent = UI.TextLabel_2
+UI.UITextSizeConstraint_6.MaxTextSize = 18
+
+UI.Source.Name = "Source"
+UI.Source.Parent = UI.ScrollingFrame
+UI.Source.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Source.BackgroundTransparency = 1.000
+UI.Source.ClipsDescendants = true
+UI.Source.Position = UDim2.new(0.109447107, 0, 1.99896803e-07, 0)
+UI.Source.Size = UDim2.new(0.694000006, 0, 2, 0)
+UI.Source.ZIndex = 3
+UI.Source.ClearTextOnFocus = false
+UI.Source.Font = Enum.Font.Code
+UI.Source.MultiLine = true
+UI.Source.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
+UI.Source.PlaceholderText = "Print(\"lol\")"
+UI.Source.Text = ""
+UI.Source.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Source.TextScaled = false
+UI.Source.TextSize = 18.000
+UI.Source.TextWrapped = true
+UI.Source.TextXAlignment = Enum.TextXAlignment.Left
+UI.Source.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_7.Parent = UI.Source
+UI.UITextSizeConstraint_7.MaxTextSize = 18
+
+UI.Frame.Parent = UI.ScrollingFrame
+UI.Frame.BackgroundColor3 = Color3.fromRGB(31, 30, 31)
+UI.Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Frame.BorderSizePixel = 0
+UI.Frame.Position = UDim2.new(0.802999973, 0, -0, 0)
+UI.Frame.Size = UDim2.new(0.170000002, 0, 2, 0)
+
+UI.lol.Name = "lol"
+UI.lol.Parent = UI.Frame
+UI.lol.BackgroundColor3 = Color3.fromRGB(31, 30, 31)
+UI.lol.BackgroundTransparency = 1.000
+UI.lol.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.lol.BorderSizePixel = 0
+UI.lol.ClipsDescendants = true
+UI.lol.Position = UDim2.new(0.000646353699, 0, 0, 0)
+UI.lol.Size = UDim2.new(1, 0, 2, 0)
+UI.lol.Font = Enum.Font.Code
+UI.lol.Text = ""
+UI.lol.TextColor3 = Color3.fromRGB(255, 252, 255)
+UI.lol.TextScaled = false
+UI.lol.TextSize = 5.000
+UI.lol.TextWrapped = true
+UI.lol.TextXAlignment = Enum.TextXAlignment.Left
+UI.lol.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_8.Parent = UI.lol
+UI.UITextSizeConstraint_8.MaxTextSize = 5
+
+UI.Comments_.Name = "Comments_"
+UI.Comments_.Parent = UI.Frame
+UI.Comments_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Comments_.BackgroundTransparency = 1.000
+UI.Comments_.ClipsDescendants = true
+UI.Comments_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.Comments_.Size = UDim2.new(1, 0, 2, 0)
+UI.Comments_.ZIndex = 5
+UI.Comments_.Font = Enum.Font.Code
+UI.Comments_.Text = ""
+UI.Comments_.TextColor3 = Color3.fromRGB(59, 200, 59)
+UI.Comments_.TextScaled = false
+UI.Comments_.TextSize = 5.000
+UI.Comments_.TextWrapped = true
+UI.Comments_.TextXAlignment = Enum.TextXAlignment.Left
+UI.Comments_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_9.Parent = UI.Comments_
+UI.UITextSizeConstraint_9.MaxTextSize = 5
+
+UI.Globals_.Name = "Globals_"
+UI.Globals_.Parent = UI.Frame
+UI.Globals_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Globals_.BackgroundTransparency = 1.000
+UI.Globals_.ClipsDescendants = true
+UI.Globals_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.Globals_.Size = UDim2.new(1, 0, 2, 0)
+UI.Globals_.ZIndex = 5
+UI.Globals_.Font = Enum.Font.Code
+UI.Globals_.Text = ""
+UI.Globals_.TextColor3 = Color3.fromRGB(132, 214, 247)
+UI.Globals_.TextScaled = false
+UI.Globals_.TextSize = 5.000
+UI.Globals_.TextWrapped = true
+UI.Globals_.TextXAlignment = Enum.TextXAlignment.Left
+UI.Globals_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_10.Parent = UI.Globals_
+UI.UITextSizeConstraint_10.MaxTextSize = 5
+
+UI.Keywords_.Name = "Keywords_"
+UI.Keywords_.Parent = UI.Frame
+UI.Keywords_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Keywords_.BackgroundTransparency = 1.000
+UI.Keywords_.ClipsDescendants = true
+UI.Keywords_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.Keywords_.Size = UDim2.new(1, 0, 2, 0)
+UI.Keywords_.ZIndex = 5
+UI.Keywords_.Font = Enum.Font.Code
+UI.Keywords_.Text = ""
+UI.Keywords_.TextColor3 = Color3.fromRGB(248, 109, 124)
+UI.Keywords_.TextScaled = false
+UI.Keywords_.TextSize = 5.000
+UI.Keywords_.TextWrapped = true
+UI.Keywords_.TextXAlignment = Enum.TextXAlignment.Left
+UI.Keywords_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_11.Parent = UI.Keywords_
+UI.UITextSizeConstraint_11.MaxTextSize = 5
+
+UI.Numbers_.Name = "Numbers_"
+UI.Numbers_.Parent = UI.Frame
+UI.Numbers_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Numbers_.BackgroundTransparency = 1.000
+UI.Numbers_.ClipsDescendants = true
+UI.Numbers_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.Numbers_.Size = UDim2.new(1, 0, 2, 0)
+UI.Numbers_.ZIndex = 5
+UI.Numbers_.Font = Enum.Font.Code
+UI.Numbers_.Text = ""
+UI.Numbers_.TextColor3 = Color3.fromRGB(255, 198, 0)
+UI.Numbers_.TextScaled = false
+UI.Numbers_.TextSize = 5.000
+UI.Numbers_.TextWrapped = true
+UI.Numbers_.TextXAlignment = Enum.TextXAlignment.Left
+UI.Numbers_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_12.Parent = UI.Numbers_
+UI.UITextSizeConstraint_12.MaxTextSize = 5
+
+UI.RemoteHighlight_.Name = "RemoteHighlight_"
+UI.RemoteHighlight_.Parent = UI.Frame
+UI.RemoteHighlight_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.RemoteHighlight_.BackgroundTransparency = 1.000
+UI.RemoteHighlight_.ClipsDescendants = true
+UI.RemoteHighlight_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.RemoteHighlight_.Size = UDim2.new(1, 0, 2, 0)
+UI.RemoteHighlight_.ZIndex = 5
+UI.RemoteHighlight_.Font = Enum.Font.Code
+UI.RemoteHighlight_.Text = ""
+UI.RemoteHighlight_.TextColor3 = Color3.fromRGB(0, 144, 255)
+UI.RemoteHighlight_.TextScaled = false
+UI.RemoteHighlight_.TextSize = 5.000
+UI.RemoteHighlight_.TextWrapped = true
+UI.RemoteHighlight_.TextXAlignment = Enum.TextXAlignment.Left
+UI.RemoteHighlight_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_13.Parent = UI.RemoteHighlight_
+UI.UITextSizeConstraint_13.MaxTextSize = 5
+
+UI.Strings_.Name = "Strings_"
+UI.Strings_.Parent = UI.Frame
+UI.Strings_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Strings_.BackgroundTransparency = 1.000
+UI.Strings_.ClipsDescendants = true
+UI.Strings_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.Strings_.Size = UDim2.new(1, 0, 2, 0)
+UI.Strings_.ZIndex = 5
+UI.Strings_.Font = Enum.Font.Code
+UI.Strings_.Text = ""
+UI.Strings_.TextColor3 = Color3.fromRGB(173, 241, 149)
+UI.Strings_.TextScaled = false
+UI.Strings_.TextSize = 5.000
+UI.Strings_.TextWrapped = true
+UI.Strings_.TextXAlignment = Enum.TextXAlignment.Left
+UI.Strings_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_14.Parent = UI.Strings_
+UI.UITextSizeConstraint_14.MaxTextSize = 5
+
+UI.Tokens_.Name = "Tokens_"
+UI.Tokens_.Parent = UI.Frame
+UI.Tokens_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Tokens_.BackgroundTransparency = 1.000
+UI.Tokens_.ClipsDescendants = true
+UI.Tokens_.Position = UDim2.new(0, 0, 6.84239794e-08, 0)
+UI.Tokens_.Size = UDim2.new(1, 0, 2, 0)
+UI.Tokens_.ZIndex = 5
+UI.Tokens_.Font = Enum.Font.Code
+UI.Tokens_.Text = ""
+UI.Tokens_.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Tokens_.TextScaled = false
+UI.Tokens_.TextSize = 5.000
+UI.Tokens_.TextWrapped = true
+UI.Tokens_.TextXAlignment = Enum.TextXAlignment.Left
+UI.Tokens_.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UITextSizeConstraint_15.Parent = UI.Tokens_
+UI.UITextSizeConstraint_15.MaxTextSize = 5
+
+UI.DisplayCode.Name = "DisplayCode"
+UI.DisplayCode.Parent = UI.ScrollingFrame
+UI.DisplayCode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.DisplayCode.BackgroundTransparency = 1.000
+UI.DisplayCode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.DisplayCode.BorderSizePixel = 0
+UI.DisplayCode.Position = UDim2.new(0.108999997, 0, 0, 0)
+UI.DisplayCode.Size = UDim2.new(0.694000006, 0, 2, 0)
+UI.DisplayCode.ZIndex = 99
+UI.DisplayCode.Font = Enum.Font.Code
+UI.DisplayCode.Text = ""
+UI.DisplayCode.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.DisplayCode.TextSize = 18.000
+UI.DisplayCode.TextWrapped = true
+UI.DisplayCode.TextXAlignment = Enum.TextXAlignment.Left
+UI.DisplayCode.TextYAlignment = Enum.TextYAlignment.Top
+
+UI.UIAspectRatioConstraint.Parent = UI.executor
+UI.UIAspectRatioConstraint.AspectRatio = 2.060
+
+UI.console.Name = "console"
+UI.console.Parent = UI.all
+UI.console.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UI.console.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.console.BorderSizePixel = 0
+UI.console.Position = UDim2.new(5.3917983e-08, 0, -4.75351669e-08, 0)
+UI.console.Size = UDim2.new(1.00100708, 0, 1.00312829, 0)
+UI.console.Visible = false
+
+UI.UICorner_11.Parent = UI.console
+
+UI.Console.Name = "Console"
+UI.Console.Parent = UI.console
+UI.Console.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Console.BackgroundTransparency = 1.000
+UI.Console.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Console.BorderSizePixel = 0
+UI.Console.Position = UDim2.new(0, 0, 4.73869299e-08, 0)
+UI.Console.Size = UDim2.new(0.99991858, 0, 0.996881485, 0)
+
+UI.Name.Name = "Name"
+UI.Name.Parent = UI.Console
+UI.Name.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+UI.Name.BackgroundTransparency = 1.000
+UI.Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Name.BorderSizePixel = 0
+UI.Name.Size = UDim2.new(1, 0, 0.155290961, 0)
+UI.Name.Font = Enum.Font.JosefinSans
+UI.Name.Text = "Console Logs"
+UI.Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Name.TextScaled = false
+UI.Name.TextSize = 10.000
+UI.Name.TextWrapped = true
+
+UI.UITextSizeConstraint_16.Parent = UI.Name
+UI.UITextSizeConstraint_16.MaxTextSize = 10
+
+UI.Scroller.Name = "Scroller"
+UI.Scroller.Parent = UI.Console
+UI.Scroller.Active = true
+UI.Scroller.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+UI.Scroller.BackgroundTransparency = 1.000
+UI.Scroller.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Scroller.BorderSizePixel = 0
+UI.Scroller.Position = UDim2.new(0, 0, 0.155290976, 0)
+UI.Scroller.Size = UDim2.new(1, 0, 0.700478256, 0)
+UI.Scroller.CanvasSize = UDim2.new(0, 0, 0, 0)
+UI.Scroller.ScrollBarThickness = 10
+
+UI.UIListLayout.Parent = UI.Scroller
+UI.UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+UI._Line_.Name = "_Line_"
+UI._Line_.Parent = UI.Scroller
+UI._Line_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI._Line_.BackgroundTransparency = 1.000
+UI._Line_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI._Line_.BorderSizePixel = 0
+UI._Line_.Size = UDim2.new(1, 0, 0.125, 0)
+UI._Line_.Font = Enum.Font.Code
+UI._Line_.Text = "-- All Consoles errors logs here"
+UI._Line_.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI._Line_.TextScaled = false
+UI._Line_.TextSize = 10.000
+UI._Line_.TextWrapped = true
+UI._Line_.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_17.Parent = UI._Line_
+UI.UITextSizeConstraint_17.MaxTextSize = 10
+
+UI.Buttons.Name = "Buttons"
+UI.Buttons.Parent = UI.Console
+
+UI.Modes.Name = "Modes"
+UI.Modes.Parent = UI.Buttons
+
+UI.Warn.Name = "Warn"
+UI.Warn.Parent = UI.Modes
+UI.Warn.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Warn.BackgroundTransparency = 0.900
+UI.Warn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Warn.BorderSizePixel = 0
+UI.Warn.Position = UDim2.new(1.05859554, 0, 0.530914605, 0)
+UI.Warn.Size = UDim2.new(0.211999997, 0, 0.143999994, 0)
+UI.Warn.Text = "warn: on"
+UI.Warn.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Warn.TextScaled = false
+UI.Warn.TextSize = 10.000
+UI.Warn.TextWrapped = true
+
+UI.UITextSizeConstraint_18.Parent = UI.Warn
+UI.UITextSizeConstraint_18.MaxTextSize = 10
+
+UI.Print.Name = "Print"
+UI.Print.Parent = UI.Modes
+UI.Print.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Print.BackgroundTransparency = 0.900
+UI.Print.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Print.BorderSizePixel = 0
+UI.Print.Position = UDim2.new(1.05859554, 0, 0.386683762, 0)
+UI.Print.Size = UDim2.new(0.211999997, 0, 0.143999994, 0)
+UI.Print.Text = "print: on"
+UI.Print.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Print.TextScaled = false
+UI.Print.TextSize = 10.000
+UI.Print.TextWrapped = true
+
+UI.UITextSizeConstraint_19.Parent = UI.Print
+UI.UITextSizeConstraint_19.MaxTextSize = 10
+
+UI.Error.Name = "Error"
+UI.Error.Parent = UI.Modes
+UI.Error.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Error.BackgroundTransparency = 0.900
+UI.Error.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Error.BorderSizePixel = 0
+UI.Error.Position = UDim2.new(1.05859554, 0, 0.675145328, 0)
+UI.Error.Size = UDim2.new(0.211999997, 0, 0.143999994, 0)
+UI.Error.Text = "error: on"
+UI.Error.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Error.TextScaled = false
+UI.Error.TextSize = 10.000
+UI.Error.TextWrapped = true
+
+UI.UITextSizeConstraint_20.Parent = UI.Error
+UI.UITextSizeConstraint_20.MaxTextSize = 10
+
+UI.Info.Name = "Info"
+UI.Info.Parent = UI.Modes
+UI.Info.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Info.BackgroundTransparency = 0.900
+UI.Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Info.BorderSizePixel = 0
+UI.Info.Position = UDim2.new(1.05859554, 0, 0.242453039, 0)
+UI.Info.Size = UDim2.new(0.211999997, 0, 0.143999994, 0)
+UI.Info.Text = "info: on"
+UI.Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Info.TextScaled = false
+UI.Info.TextSize = 10.000
+UI.Info.TextWrapped = true
+
+UI.UITextSizeConstraint_21.Parent = UI.Info
+UI.UITextSizeConstraint_21.MaxTextSize = 10
+
+UI.BottomConsole.Name = "BottomConsole"
+UI.BottomConsole.Parent = UI.Buttons
+
+UI.Clear.Name = "Clear"
+UI.Clear.Parent = UI.BottomConsole
+UI.Clear.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Clear.BackgroundTransparency = 1.000
+UI.Clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Clear.BorderSizePixel = 0
+UI.Clear.Position = UDim2.new(0, 0, 0.856000006, 0)
+UI.Clear.Size = UDim2.new(0.333000004, 0, 0.143999994, 0)
+UI.Clear.Text = "clear"
+UI.Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Clear.TextScaled = false
+UI.Clear.TextSize = 10.000
+UI.Clear.TextWrapped = true
+
+UI.UITextSizeConstraint_22.Parent = UI.Clear
+UI.UITextSizeConstraint_22.MaxTextSize = 10
+
+UI.Copy.Name = "Copy"
+UI.Copy.Parent = UI.BottomConsole
+UI.Copy.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Copy.BackgroundTransparency = 1.000
+UI.Copy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Copy.BorderSizePixel = 0
+UI.Copy.Position = UDim2.new(0.332868904, 0, 0.855769157, 0)
+UI.Copy.Size = UDim2.new(0.333000004, 0, 0.143999994, 0)
+UI.Copy.Text = "copy"
+UI.Copy.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Copy.TextScaled = false
+UI.Copy.TextSize = 10.000
+UI.Copy.TextWrapped = true
+
+UI.UITextSizeConstraint_23.Parent = UI.Copy
+UI.UITextSizeConstraint_23.MaxTextSize = 10
+
+UI.Save.Name = "Save"
+UI.Save.Parent = UI.BottomConsole
+UI.Save.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+UI.Save.BackgroundTransparency = 1.000
+UI.Save.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Save.BorderSizePixel = 0
+UI.Save.Position = UDim2.new(0.666000009, 0, 0.856000006, 0)
+UI.Save.Size = UDim2.new(0.333999991, 0, 0.143999994, 0)
+UI.Save.Text = "save"
+UI.Save.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.Save.TextScaled = false
+UI.Save.TextSize = 10.000
+UI.Save.TextWrapped = true
+
+UI.UITextSizeConstraint_24.Parent = UI.Save
+UI.UITextSizeConstraint_24.MaxTextSize = 10
+
+UI.UIAspectRatioConstraint_2.Parent = UI.console
+UI.UIAspectRatioConstraint_2.AspectRatio = 1.753
+
+UI.search.Name = "search"
+UI.search.Parent = UI.all
+UI.search.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UI.search.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.search.BorderSizePixel = 0
+UI.search.Position = UDim2.new(5.3917983e-08, 0, -4.75351669e-08, 0)
+UI.search.Size = UDim2.new(1.00100708, 0, 1.00312829, 0)
+UI.search.Visible = false
+
+UI.UICorner_12.Parent = UI.search
+
+UI.UIAspectRatioConstraint_3.Parent = UI.search
+UI.UIAspectRatioConstraint_3.AspectRatio = 1.753
+
+UI.ScriptFinder.Name = "ScriptFinder"
+UI.ScriptFinder.Parent = UI.search
+UI.ScriptFinder.BackgroundColor3 = Color3.fromRGB(32, 31, 32)
+UI.ScriptFinder.BackgroundTransparency = 1.000
+UI.ScriptFinder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ScriptFinder.BorderSizePixel = 0
+UI.ScriptFinder.Position = UDim2.new(0, 0, 0.000767394376, 0)
+UI.ScriptFinder.Size = UDim2.new(1, 0, 1, 0)
+
+UI.Frame_2.Parent = UI.ScriptFinder
+UI.Frame_2.BackgroundColor3 = Color3.fromRGB(18, 17, 19)
+UI.Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Frame_2.BorderSizePixel = 0
+UI.Frame_2.Position = UDim2.new(0.0399999991, 0, 0.0550161824, 0)
+UI.Frame_2.Size = UDim2.new(0.913999975, 0, 0.122977346, 0)
+
+UI.UICorner_13.Parent = UI.Frame_2
+
+UI.TextButton.Parent = UI.Frame_2
+UI.TextButton.BackgroundColor3 = Color3.fromRGB(25, 24, 25)
+UI.TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextButton.BorderSizePixel = 0
+UI.TextButton.Position = UDim2.new(0.877461731, 0, 0.157894731, 0)
+UI.TextButton.Size = UDim2.new(0.0940919071, 0, 0.684210539, 0)
+UI.TextButton.Font = Enum.Font.Unknown
+UI.TextButton.Text = "Serach"
+UI.TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextButton.TextScaled = false
+UI.TextButton.TextSize = 10
+UI.TextButton.TextWrapped = true
+
+UI.UICorner_14.Parent = UI.TextButton
+
+UI.TextBox.Parent = UI.Frame_2
+UI.TextBox.BackgroundColor3 = Color3.fromRGB(42, 40, 42)
+UI.TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextBox.BorderSizePixel = 0
+UI.TextBox.ClipsDescendants = true
+UI.TextBox.Position = UDim2.new(0.0240700226, 0, 0.157894731, 0)
+UI.TextBox.Size = UDim2.new(0.822757125, 0, 0.684210539, 0)
+UI.TextBox.Font = Enum.Font.Unknown
+UI.TextBox.PlaceholderText = "Type GameName or scriptname in here"
+UI.TextBox.Text = ""
+UI.TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextBox.TextScaled = false
+UI.TextBox.TextSize = 10
+UI.TextBox.TextWrapped = true
+
+UI.UICorner_15.Parent = UI.TextBox
+
+UI.UITextSizeConstraint_25.Parent = UI.TextBox
+UI.UITextSizeConstraint_25.MaxTextSize = 10
+
+UI.TextLabel_3.Parent = UI.ScriptFinder
+UI.TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel_3.BackgroundTransparency = 1.000
+UI.TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextLabel_3.BorderSizePixel = 0
+UI.TextLabel_3.Position = UDim2.new(-0.00146100274, 0, -0.0187471397, 0)
+UI.TextLabel_3.Size = UDim2.new(1.00000024, 0, 0.0663600266, 0)
+UI.TextLabel_3.Font = Enum.Font.Unknown
+UI.TextLabel_3.Text = "Alert! This Search is Beta"
+UI.TextLabel_3.TextColor3 = Color3.fromRGB(200, 200, 200)
+UI.TextLabel_3.TextScaled = false
+UI.TextLabel_3.TextSize = 10.000
+UI.TextLabel_3.TextWrapped = true
+
+UI.UITextSizeConstraint_26.Parent = UI.TextLabel_3
+UI.UITextSizeConstraint_26.MaxTextSize = 10
+
+UI.ScrollingFrame_2.Parent = UI.ScriptFinder
+UI.ScrollingFrame_2.Active = true
+UI.ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(18, 17, 19)
+UI.ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ScrollingFrame_2.BorderSizePixel = 0
+UI.ScrollingFrame_2.Position = UDim2.new(0.0399999991, 0, 0.214000002, 0)
+UI.ScrollingFrame_2.Size = UDim2.new(0.913999975, 0, 0.731391609, 0)
+
+UI.UICorner_16.Parent = UI.ScrollingFrame_2
+
+UI.Folder.Parent = UI.ScrollingFrame_2
+
+UI.Frame_3.Parent = UI.Folder
+UI.Frame_3.BackgroundColor3 = Color3.fromRGB(42, 40, 42)
+UI.Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Frame_3.BorderSizePixel = 0
+UI.Frame_3.Position = UDim2.new(0.0989999995, 0, 0.0199999996, 0)
+UI.Frame_3.Size = UDim2.new(0.986000001, 0, 0.100000001, 0)
+UI.Frame_3.Visible = false
+
+UI.UICorner_17.Parent = UI.Frame_3
+
+UI.delete.Name = "delete"
+UI.delete.Parent = UI.Frame_3
+UI.delete.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.delete.BackgroundTransparency = 0.999
+UI.delete.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.delete.BorderSizePixel = 0
+UI.delete.Position = UDim2.new(0.926096976, 0, 0.374285758, 0)
+UI.delete.Size = UDim2.new(0.0461893752, 0, 0.238095239, 0)
+UI.delete.Image = "rbxassetid://15105418530"
+
+UI.load.Name = "load"
+UI.load.Parent = UI.Frame_3
+UI.load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.load.BackgroundTransparency = 0.999
+UI.load.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.load.BorderSizePixel = 0
+UI.load.Position = UDim2.new(0.914549649, 0, -0.0399275273, 0)
+UI.load.Size = UDim2.new(0.0692840666, 0, 0.357142866, 0)
+UI.load.Image = "rbxassetid://15115194626"
+
+UI.TextLabel_4.Parent = UI.Frame_3
+UI.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel_4.BackgroundTransparency = 1.000
+UI.TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextLabel_4.BorderSizePixel = 0
+UI.TextLabel_4.ClipsDescendants = true
+UI.TextLabel_4.Position = UDim2.new(0.387990773, 0, 0.0833333358, 0)
+UI.TextLabel_4.Size = UDim2.new(0.43418014, 0, 0.190476194, 0)
+UI.TextLabel_4.Font = Enum.Font.Unknown
+UI.TextLabel_4.Text = "Scriptname"
+UI.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel_4.TextSize = 10
+UI.TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.ImageLabel_2.Parent = UI.Frame_3
+UI.ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel_2.BackgroundTransparency = 1.000
+UI.ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_2.BorderSizePixel = 0
+UI.ImageLabel_2.Position = UDim2.new(0, 0, -0.0238095243, 0)
+UI.ImageLabel_2.Size = UDim2.new(0.371824473, 0, 0.988095224, 0)
+UI.ImageLabel_2.Image = "rbxassetid://15782053121"
+UI.ImageLabel_2.ImageTransparency = 0.500
+
+UI.UICorner_18.Parent = UI.ImageLabel_2
+
+UI.copy.Name = "copy"
+UI.copy.Parent = UI.Frame_3
+UI.copy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.copy.BackgroundTransparency = 0.999
+UI.copy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.copy.BorderSizePixel = 0
+UI.copy.Position = UDim2.new(0.926096976, 0, 0.698167682, 0)
+UI.copy.Size = UDim2.new(0.0461893752, 0, 0.238095239, 0)
+UI.copy.Image = "rbxassetid://15105449763"
+
+UI.UIAspectRatioConstraint_4.Parent = UI.Frame_3
+UI.UIAspectRatioConstraint_4.AspectRatio = 6.519
+
+UI.UIListLayout_2.Parent = UI.ScrollingFrame_2
+UI.UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UI.UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UI.UIListLayout_2.Padding = UDim.new(0, 10)
+
+UI.settings.Name = "settings"
+UI.settings.Parent = UI.all
+UI.settings.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UI.settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.settings.BorderSizePixel = 0
+UI.settings.Position = UDim2.new(5.3917983e-08, 0, -4.75351669e-08, 0)
+UI.settings.Size = UDim2.new(1.00100708, 0, 1.00312829, 0)
+UI.settings.Visible = false
+
+UI.UICorner_19.Parent = UI.settings
+
+UI.UIAspectRatioConstraint_5.Parent = UI.settings
+UI.UIAspectRatioConstraint_5.AspectRatio = 1.753
+
+UI.ScriptHub.Name = "ScriptHub"
+UI.ScriptHub.Parent = UI.settings
+UI.ScriptHub.BackgroundColor3 = Color3.fromRGB(32, 31, 32)
+UI.ScriptHub.BackgroundTransparency = 1.000
+UI.ScriptHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ScriptHub.BorderSizePixel = 0
+UI.ScriptHub.Position = UDim2.new(0, 0, 0.000767394376, 0)
+UI.ScriptHub.Size = UDim2.new(1, 0, 1, 0)
+
+UI.Frame_4.Parent = UI.ScriptHub
+UI.Frame_4.BackgroundColor3 = Color3.fromRGB(18, 17, 19)
+UI.Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Frame_4.BorderSizePixel = 0
+UI.Frame_4.Position = UDim2.new(0.0419999994, 0, 0.841423929, 0)
+UI.Frame_4.Size = UDim2.new(0.913999975, 0, 0.122977346, 0)
+
+UI.UICorner_20.Parent = UI.Frame_4
+
+UI.TextButton_2.Parent = UI.Frame_4
+UI.TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 24, 25)
+UI.TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextButton_2.BorderSizePixel = 0
+UI.TextButton_2.Position = UDim2.new(0.873122275, 0, 0.157894731, 0)
+UI.TextButton_2.Size = UDim2.new(0.100301266, 0, 0.684210539, 0)
+UI.TextButton_2.Font = Enum.Font.Unknown
+UI.TextButton_2.Text = "Add"
+UI.TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextButton_2.TextSize = 10
+
+UI.UICorner_21.Parent = UI.TextButton_2
+
+UI.nm.Name = "nm"
+UI.nm.Parent = UI.Frame_4
+UI.nm.BackgroundColor3 = Color3.fromRGB(42, 40, 42)
+UI.nm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.nm.BorderSizePixel = 0
+UI.nm.ClipsDescendants = true
+UI.nm.Position = UDim2.new(0.0240700711, 0, 0.157894343, 0)
+UI.nm.Size = UDim2.new(0.341024309, 0, 0.684210539, 0)
+UI.nm.Font = Enum.Font.Unknown
+UI.nm.PlaceholderText = "scriptName here"
+UI.nm.Text = ""
+UI.nm.TextColor3 = Color3.fromRGB(0, 0, 0)
+UI.nm.TextScaled = false
+UI.nm.TextSize = 10
+UI.nm.TextWrapped = true
+
+UI.UICorner_22.Parent = UI.nm
+
+UI.UITextSizeConstraint_27.Parent = UI.nm
+UI.UITextSizeConstraint_27.MaxTextSize = 10
+
+UI.sr.Name = "sr"
+UI.sr.Parent = UI.Frame_4
+UI.sr.BackgroundColor3 = Color3.fromRGB(42, 40, 42)
+UI.sr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.sr.BorderSizePixel = 0
+UI.sr.ClipsDescendants = true
+UI.sr.Position = UDim2.new(0.412447065, 0, 0.157894343, 0)
+UI.sr.Size = UDim2.new(0.427952081, 0, 0.684210539, 0)
+UI.sr.ZIndex = 9
+UI.sr.Font = Enum.Font.Unknown
+UI.sr.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+UI.sr.PlaceholderText = "Your Script here"
+UI.sr.Text = ""
+UI.sr.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.sr.TextScaled = false
+UI.sr.TextSize = 10
+UI.sr.TextWrapped = true
+
+UI.UICorner_23.Parent = UI.sr
+
+UI.UITextSizeConstraint_28.Parent = UI.sr
+UI.UITextSizeConstraint_28.MaxTextSize = 10
+
+UI.TextLabel_5.Parent = UI.ScriptHub
+UI.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel_5.BackgroundTransparency = 1.000
+UI.TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextLabel_5.BorderSizePixel = 0
+UI.TextLabel_5.Position = UDim2.new(-0.0131486235, 0, -0.00300000189, 0)
+UI.TextLabel_5.Size = UDim2.new(1.03353512, 0, 0.0659999996, 0)
+UI.TextLabel_5.Font = Enum.Font.Unknown
+UI.TextLabel_5.Text = "Alert Do Not type long script in (your script here)"
+UI.TextLabel_5.TextColor3 = Color3.fromRGB(200, 200, 200)
+UI.TextLabel_5.TextScaled = false
+UI.TextLabel_5.TextSize = 10.000
+UI.TextLabel_5.TextWrapped = true
+
+UI.UITextSizeConstraint_29.Parent = UI.TextLabel_5
+UI.UITextSizeConstraint_29.MaxTextSize = 10
+
+UI.ScrollingFrame_3.Parent = UI.ScriptHub
+UI.ScrollingFrame_3.Active = true
+UI.ScrollingFrame_3.BackgroundColor3 = Color3.fromRGB(18, 17, 19)
+UI.ScrollingFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ScrollingFrame_3.BorderSizePixel = 0
+UI.ScrollingFrame_3.Position = UDim2.new(0.0419999994, 0, 0.0718658343, 0)
+UI.ScrollingFrame_3.Size = UDim2.new(0.913999975, 0, 0.731391609, 0)
+
+UI.UICorner_24.Parent = UI.ScrollingFrame_3
+
+UI.Frame_5.Parent = UI.ScrollingFrame_3
+UI.Frame_5.BackgroundColor3 = Color3.fromRGB(25, 24, 25)
+UI.Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Frame_5.BorderSizePixel = 0
+UI.Frame_5.Position = UDim2.new(0.0250000004, 0, 0.0199999996, 0)
+UI.Frame_5.Size = UDim2.new(0, 605, 55, 0)
+
+UI.UICorner_25.Parent = UI.Frame_5
+
+UI.UIListLayout_3.Parent = UI.Frame_5
+UI.UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UI.UIListLayout_3.Padding = UDim.new(0, 10)
+
+UI.Folder_2.Parent = UI.Frame_5
+
+UI.Frame_6.Parent = UI.Folder_2
+UI.Frame_6.BackgroundColor3 = Color3.fromRGB(42, 40, 42)
+UI.Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Frame_6.BorderSizePixel = 0
+UI.Frame_6.Position = UDim2.new(-5.04422779e-08, 0, 0, 0)
+UI.Frame_6.Size = UDim2.new(0.986032426, 0, 0.00135333906, 0)
+UI.Frame_6.Visible = false
+
+UI.UICorner_26.Parent = UI.Frame_6
+
+UI.x.Name = "x"
+UI.x.Parent = UI.Frame_6
+UI.x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.x.BackgroundTransparency = 0.999
+UI.x.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.x.BorderSizePixel = 0
+UI.x.Position = UDim2.new(0.831408799, 0, 0.173913047, 0)
+UI.x.Size = UDim2.new(0.0692840666, 0, 0.652173936, 0)
+UI.x.Image = "rbxassetid://15115278951"
+
+UI.p_2.Name = "p"
+UI.p_2.Parent = UI.Frame_6
+UI.p_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.p_2.BackgroundTransparency = 0.999
+UI.p_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.p_2.BorderSizePixel = 0
+UI.p_2.Position = UDim2.new(0.91685915, 0, 0.173913047, 0)
+UI.p_2.Size = UDim2.new(0.0692840666, 0, 0.652173936, 0)
+UI.p_2.Image = "rbxassetid://15115177087"
+
+UI.TextLabel_6.Parent = UI.Frame_6
+UI.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel_6.BackgroundTransparency = 1.000
+UI.TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextLabel_6.BorderSizePixel = 0
+UI.TextLabel_6.ClipsDescendants = true
+UI.TextLabel_6.Size = UDim2.new(0.812933028, 0, 1, 0)
+UI.TextLabel_6.Font = Enum.Font.Unknown
+UI.TextLabel_6.Text = "Scriptname"
+UI.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextLabel_6.TextScaled = false
+UI.TextLabel_6.TextSize = 10
+UI.TextLabel_6.TextWrapped = true
+
+UI.UITextSizeConstraint_30.Parent = UI.TextLabel_6
+UI.UITextSizeConstraint_30.MaxTextSize = 10
+
+UI.c.Name = "c"
+UI.c.Parent = UI.Frame_6
+UI.c.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.c.BackgroundTransparency = 0.999
+UI.c.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.c.BorderSizePixel = 0
+UI.c.Position = UDim2.new(0.743648946, 0, 0.173913047, 0)
+UI.c.Size = UDim2.new(0.0692840666, 0, 0.652173936, 0)
+UI.c.Image = "rbxassetid://10825594179"
+
+UI.UIAspectRatioConstraint_6.Parent = UI.Frame_6
+UI.UIAspectRatioConstraint_6.AspectRatio = 10.208
+
+UI.TextButton_3.Parent = UI.all
+UI.TextButton_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextButton_3.BorderSizePixel = 0
+UI.TextButton_3.Position = UDim2.new(-0.836158216, 0, 0.789215684, 0)
+UI.TextButton_3.Size = UDim2.new(0, 80, 0, 32)
+UI.TextButton_3.Visible = false
+UI.TextButton_3.Font = Enum.Font.Unknown
+UI.TextButton_3.Text = "Dev Kit"
+UI.TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextButton_3.TextSize = 10.000
+
+UI.UICorner_27.Parent = UI.TextButton_3
+
+UI.TextBox_2.Parent = UI.all
+UI.TextBox_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextBox_2.BorderSizePixel = 0
+UI.TextBox_2.Position = UDim2.new(-0.858757079, 0, 0.524509788, 0)
+UI.TextBox_2.Size = UDim2.new(0, 164, 0, 23)
+UI.TextBox_2.Visible = false
+UI.TextBox_2.Font = Enum.Font.Unknown
+UI.TextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+UI.TextBox_2.PlaceholderText = "devkit"
+UI.TextBox_2.Text = ""
+UI.TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+UI.TextBox_2.TextSize = 10.000
+
+UI.UICorner_28.Parent = UI.TextBox_2
+
+UI.home.Name = "home"
+UI.home.Parent = UI.all
+UI.home.BackgroundColor3 = Color3.fromRGB(16, 15, 16)
+UI.home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.home.BorderSizePixel = 0
+UI.home.Position = UDim2.new(5.3917983e-08, 0, -4.75351669e-08, 0)
+UI.home.Size = UDim2.new(1.00100708, 0, 1.00312829, 0)
+UI.home.Visible = true
+
+UI.UICorner_29.Parent = UI.home
+
+UI.plr.Name = "plr "
+UI.plr.Parent = UI.home
+UI.plr.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.plr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.plr.BorderSizePixel = 0
+UI.plr.Position = UDim2.new(0.0141200013, 0, 0.0434777439, 0)
+UI.plr.Size = UDim2.new(0.234994128, 0, 0.363349319, 0)
+
+UI.UICorner_30.Parent = UI.plr
+
+UI.ImageLabel_3.Parent = UI.plr
+UI.ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_3.BorderSizePixel = 0
+UI.ImageLabel_3.Position = UDim2.new(0.28125, 0, 0.244158879, 0)
+UI.ImageLabel_3.Size = UDim2.new(0.4296875, 0, 0.495327115, 0)
+UI.ImageLabel_3.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UI.UICorner_31.Parent = UI.ImageLabel_3
+
+UI.ginfo.Name = "ginfo"
+UI.ginfo.Parent = UI.home
+UI.ginfo.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.ginfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ginfo.BorderSizePixel = 0
+UI.ginfo.Position = UDim2.new(0.261220962, 0, 0.0434777439, 0)
+UI.ginfo.Size = UDim2.new(0.717598975, 0, 0.577632248, 0)
+
+UI.UICorner_32.Parent = UI.ginfo
+
+UI.ImageLabel_4.Parent = UI.ginfo
+UI.ImageLabel_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+UI.ImageLabel_4.BackgroundTransparency = 9.000
+UI.ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_4.BorderSizePixel = 0
+UI.ImageLabel_4.Position = UDim2.new(0.618215322, 0, 0.125879347, 0)
+UI.ImageLabel_4.Size = UDim2.new(0.333763063, 0, 0.73093617, 0)
+
+UI.UICorner_33.Parent = UI.ImageLabel_4
+
+UI.gname.Name = "gname"
+UI.gname.Parent = UI.ginfo
+UI.gname.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.gname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.gname.BorderSizePixel = 0
+UI.gname.Position = UDim2.new(0.0471426956, 0, 0.0970668197, 0)
+UI.gname.Size = UDim2.new(0.500400305, 0, 0.196261659, 0)
+UI.gname.Font = Enum.Font.Unknown
+UI.gname.Text = "Game Name"
+UI.gname.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.gname.TextScaled = false
+UI.gname.TextSize = 10.000
+UI.gname.TextWrapped = true
+UI.gname.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_31.Parent = UI.gname
+UI.UITextSizeConstraint_31.MaxTextSize = 10
+
+UI.UICorner_34.Parent = UI.gname
+
+UI.guser.Name = "guser"
+UI.guser.Parent = UI.ginfo
+UI.guser.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.guser.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.guser.BorderSizePixel = 0
+UI.guser.Position = UDim2.new(0.0471422449, 0, 0.339002311, 0)
+UI.guser.Size = UDim2.new(0.500400543, 0, 0.196261659, 0)
+UI.guser.Font = Enum.Font.Unknown
+UI.guser.Text = "Game UserID"
+UI.guser.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.guser.TextSize = 10.000
+UI.guser.TextWrapped = true
+UI.guser.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_32.Parent = UI.guser
+UI.UITextSizeConstraint_32.MaxTextSize = 10
+
+UI.UICorner_35.Parent = UI.guser
+
+UI.fps.Name = "fps"
+UI.fps.Parent = UI.ginfo
+UI.fps.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.fps.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.fps.BorderSizePixel = 0
+UI.fps.Position = UDim2.new(0.0205266457, 0, 0.709970117, 0)
+UI.fps.Size = UDim2.new(0.177089706, 0, 0.196261659, 0)
+UI.fps.Font = Enum.Font.Unknown
+UI.fps.Text = "Fps:"
+UI.fps.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.fps.TextScaled = false
+UI.fps.TextSize = 10.000
+UI.fps.TextWrapped = true
+
+UI.UITextSizeConstraint_33.Parent = UI.fps
+UI.UITextSizeConstraint_33.MaxTextSize = 10
+
+UI.UICorner_36.Parent = UI.fps
+
+UI.ping.Name = "ping"
+UI.ping.Parent = UI.ginfo
+UI.ping.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.ping.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ping.BorderSizePixel = 0
+UI.ping.Position = UDim2.new(0.215718567, 0, 0.709970117, 0)
+UI.ping.Size = UDim2.new(0.206630468, 0, 0.195999965, 0)
+UI.ping.Font = Enum.Font.Unknown
+UI.ping.Text = "Ping:"
+UI.ping.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.ping.TextScaled = false
+UI.ping.TextSize = 10.000
+UI.ping.TextWrapped = true
+
+UI.UITextSizeConstraint_34.Parent = UI.ping
+UI.UITextSizeConstraint_34.MaxTextSize = 10
+
+UI.UICorner_37.Parent = UI.ping
+
+UI.plrs.Name = "plrs"
+UI.plrs.Parent = UI.ginfo
+UI.plrs.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.plrs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.plrs.BorderSizePixel = 0
+UI.plrs.Position = UDim2.new(0.460791111, 0, 0.709970117, 0)
+UI.plrs.Size = UDim2.new(0.113165647, 0, 0.195999965, 0)
+UI.plrs.Font = Enum.Font.Unknown
+UI.plrs.Text = "Players:"
+UI.plrs.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.plrs.TextScaled = false
+UI.plrs.TextSize = 10.000
+UI.plrs.TextWrapped = true
+
+UI.UITextSizeConstraint_35.Parent = UI.plrs
+UI.UITextSizeConstraint_35.MaxTextSize = 10
+
+UI.UICorner_38.Parent = UI.plrs
+
+UI.info.Name = "info"
+UI.info.Parent = UI.home
+UI.info.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.info.BorderSizePixel = 0
+UI.info.Position = UDim2.new(0.0141200013, 0, 0.422354817, 0)
+UI.info.Size = UDim2.new(0.233987093, 0, 0.55278784, 0)
+
+UI.UICorner_39.Parent = UI.info
+
+UI.u.Name = "u"
+UI.u.Parent = UI.info
+UI.u.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.u.BackgroundTransparency = 1.000
+UI.u.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.u.BorderSizePixel = 0
+UI.u.Position = UDim2.new(0.0525016263, 0, -0.00508374861, 0)
+UI.u.Size = UDim2.new(0.946928382, 0, 0.196261689, 0)
+UI.u.Font = Enum.Font.Unknown
+UI.u.Text = "User1"
+UI.u.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.u.TextSize = 10.000
+UI.u.TextWrapped = true
+UI.u.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_36.Parent = UI.u
+UI.UITextSizeConstraint_36.MaxTextSize = 10
+
+UI.d.Name = "d"
+UI.d.Parent = UI.info
+UI.d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.d.BackgroundTransparency = 1.000
+UI.d.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.d.BorderSizePixel = 0
+UI.d.Position = UDim2.new(0.0449585579, 0, 0.163455576, 0)
+UI.d.Size = UDim2.new(0.947000027, 0, 0.19600001, 0)
+UI.d.Font = Enum.Font.Unknown
+UI.d.Text = "Disname"
+UI.d.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.d.TextSize = 10.000
+UI.d.TextWrapped = true
+UI.d.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_37.Parent = UI.d
+UI.UITextSizeConstraint_37.MaxTextSize = 10
+
+UI.t.Name = "t"
+UI.t.Parent = UI.info
+UI.t.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.t.BackgroundTransparency = 1.000
+UI.t.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.t.BorderSizePixel = 0
+UI.t.Position = UDim2.new(0.0449585579, 0, 0.354466826, 0)
+UI.t.Size = UDim2.new(0.947000027, 0, 0.19600001, 0)
+UI.t.Font = Enum.Font.Unknown
+UI.t.Text = "Time"
+UI.t.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.t.TextSize = 10.000
+UI.t.TextWrapped = true
+UI.t.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_38.Parent = UI.t
+UI.UITextSizeConstraint_38.MaxTextSize = 10
+
+UI.da.Name = "da"
+UI.da.Parent = UI.info
+UI.da.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.da.BackgroundTransparency = 1.000
+UI.da.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.da.BorderSizePixel = 0
+UI.da.Position = UDim2.new(0.0449585579, 0, 0.556713998, 0)
+UI.da.Size = UDim2.new(0.947000027, 0, 0.19600001, 0)
+UI.da.Font = Enum.Font.Unknown
+UI.da.Text = "Date"
+UI.da.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.da.TextSize = 10.000
+UI.da.TextWrapped = true
+UI.da.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_39.Parent = UI.da
+UI.UITextSizeConstraint_39.MaxTextSize = 10
+
+UI.c_2.Name = "c"
+UI.c_2.Parent = UI.home
+UI.c_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.c_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.c_2.BorderSizePixel = 0
+UI.c_2.Position = UDim2.new(0.261220962, 0, 0.638312578, 0)
+UI.c_2.Size = UDim2.new(0.717598975, 0, 0.117578007, 0)
+
+UI.UICorner_40.Parent = UI.c_2
+
+UI.ImageLabel_5.Parent = UI.c_2
+UI.ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel_5.BackgroundTransparency = 1.000
+UI.ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_5.BorderSizePixel = 0
+UI.ImageLabel_5.Position = UDim2.new(0.0196768045, 0, 0.0666663945, 0)
+UI.ImageLabel_5.Size = UDim2.new(0.074000001, 0, 0.800000012, 0)
+UI.ImageLabel_5.Image = "rbxassetid://16357493931"
+
+UI.UICorner_41.Parent = UI.ImageLabel_5
+
+UI.cr.Name = "cr"
+UI.cr.Parent = UI.c_2
+UI.cr.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.cr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.cr.BorderSizePixel = 0
+UI.cr.Position = UDim2.new(0.128748924, 0, 0.156881243, 0)
+UI.cr.Size = UDim2.new(0.851254225, 0, 0.659134567, 0)
+UI.cr.Font = Enum.Font.Unknown
+UI.cr.Text = "USER: JEXT         I         ROLE: OWNER "
+UI.cr.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.cr.TextSize = 10.000
+UI.cr.TextWrapped = true
+UI.cr.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_40.Parent = UI.cr
+UI.UITextSizeConstraint_40.MaxTextSize = 10
+
+UI.UICorner_42.Parent = UI.cr
+
+UI.c_3.Name = "c"
+UI.c_3.Parent = UI.home
+UI.c_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.c_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.c_3.BorderSizePixel = 0
+UI.c_3.Position = UDim2.new(0.261220962, 0, 0.755551994, 0)
+UI.c_3.Size = UDim2.new(0.717598975, 0, 0.117578007, 0)
+
+UI.UICorner_43.Parent = UI.c_3
+
+UI.ImageLabel_6.Parent = UI.c_3
+UI.ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel_6.BackgroundTransparency = 1.000
+UI.ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_6.BorderSizePixel = 0
+UI.ImageLabel_6.Position = UDim2.new(0.0196768045, 0, 0.0666663945, 0)
+UI.ImageLabel_6.Size = UDim2.new(0.074000001, 0, 0.800000012, 0)
+UI.ImageLabel_6.Image = "rbxassetid://16357482477"
+
+UI.UICorner_44.Parent = UI.ImageLabel_6
+
+UI.cr_2.Name = "cr"
+UI.cr_2.Parent = UI.c_3
+UI.cr_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.cr_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.cr_2.BorderSizePixel = 0
+UI.cr_2.Position = UDim2.new(0.128748924, 0, 0.156881243, 0)
+UI.cr_2.Size = UDim2.new(0.851254225, 0, 0.659134567, 0)
+UI.cr_2.Font = Enum.Font.Unknown
+UI.cr_2.Text = "USER: AnyaDEV       I      ROLE: UI Designer "
+UI.cr_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.cr_2.TextSize = 10.000
+UI.cr_2.TextWrapped = true
+UI.cr_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_41.Parent = UI.cr_2
+UI.UITextSizeConstraint_41.MaxTextSize = 10
+
+UI.UICorner_45.Parent = UI.cr_2
+
+UI.c_4.Name = "c"
+UI.c_4.Parent = UI.home
+UI.c_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UI.c_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.c_4.BorderSizePixel = 0
+UI.c_4.Position = UDim2.new(0.261220962, 0, 0.872791052, 0)
+UI.c_4.Size = UDim2.new(0.717598975, 0, 0.117578007, 0)
+
+UI.UICorner_46.Parent = UI.c_4
+
+UI.ImageLabel_7.Parent = UI.c_4
+UI.ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_7.BorderSizePixel = 0
+UI.ImageLabel_7.Position = UDim2.new(0.0199999996, 0, 0.0670000017, 0)
+UI.ImageLabel_7.Size = UDim2.new(0.0743707716, 0, 0.800396323, 0)
+UI.ImageLabel_7.Image = "rbxassetid://16357515955"
+
+UI.UICorner_47.Parent = UI.ImageLabel_7
+
+UI.cr_3.Name = "cr"
+UI.cr_3.Parent = UI.c_4
+UI.cr_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UI.cr_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.cr_3.BorderSizePixel = 0
+UI.cr_3.Position = UDim2.new(0.128748924, 0, 0.156881243, 0)
+UI.cr_3.Size = UDim2.new(0.851254225, 0, 0.659134567, 0)
+UI.cr_3.Font = Enum.Font.Unknown
+UI.cr_3.Text = "USER: woshdnwaop      I      ROLE: LIbShared Dev "
+UI.cr_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+UI.cr_3.TextSize = 10.000
+UI.cr_3.TextWrapped = true
+UI.cr_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UI.UITextSizeConstraint_42.Parent = UI.cr_3
+UI.UITextSizeConstraint_42.MaxTextSize = 10
+
+UI.UICorner_48.Parent = UI.cr_3
+
+UI.UIAspectRatioConstraint_7.Parent = UI.home
+UI.UIAspectRatioConstraint_7.AspectRatio = 1.753
+
+UI.UIAspectRatioConstraint_8.Parent = UI.all
+UI.UIAspectRatioConstraint_8.AspectRatio = 1.757
+
+UI.l8327558235238528.Name = "l8327558235238528"
+UI.l8327558235238528.Parent = UI.main
+UI.l8327558235238528.BackgroundColor3 = Color3.fromRGB(20, 21, 20)
+UI.l8327558235238528.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.l8327558235238528.BorderSizePixel = 0
+UI.l8327558235238528.Position = UDim2.new(0.916496992, 0, -0.124000005, 0)
+UI.l8327558235238528.Size = UDim2.new(0.00831946731, 0, 0.0878186971, 0)
+
+UI.UICorner_49.Parent = UI.l8327558235238528
+
+UI.UIAspectRatioConstraint_9.Parent = UI.main
+UI.UIAspectRatioConstraint_9.AspectRatio = 1.696
+
+UI.left.Name = "left"
+UI.left.Parent = UI.UI
+UI.left.BackgroundColor3 = Color3.fromRGB(20, 21, 20)
+UI.left.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.left.BorderSizePixel = 0
+UI.left.Position = UDim2.new(0.0118960468, 0, 0.256644636, 0)
+UI.left.Size = UDim2.new(0.0642218888, 0, 0.519972444, 0)
+
+UI.UICorner_50.Parent = UI.left
+
+UI.logo.Name = "logo"
+UI.logo.Parent = UI.left
+UI.logo.BackgroundColor3 = Color3.fromRGB(20, 21, 20)
+UI.logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.logo.BorderSizePixel = 0
+UI.logo.Position = UDim2.new(0.271115631, 0, 0.0380772464, 0)
+UI.logo.Size = UDim2.new(0.449275374, 0, 0.102649003, 0)
+
+UI.UICorner_51.Parent = UI.logo
+
+UI.ImageLabel_8.Parent = UI.logo
+UI.ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.ImageLabel_8.BackgroundTransparency = 1.000
+UI.ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageLabel_8.BorderSizePixel = 0
+UI.ImageLabel_8.Position = UDim2.new(-0.106686749, 0, -0.160783827, 0)
+UI.ImageLabel_8.Size = UDim2.new(1.12903225, 0, 1.12903225, 0)
+UI.ImageLabel_8.Image = "rbxassetid://15782053121"
+
+UI.Executor.Name = "Executor"
+UI.Executor.Parent = UI.left
+UI.Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Executor.BackgroundTransparency = 1.000
+UI.Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Executor.BorderSizePixel = 0
+UI.Executor.Position = UDim2.new(0.229636818, 0, 0.347196966, 0)
+UI.Executor.Size = UDim2.new(0.507246375, 0, 0.115894042, 0)
+UI.Executor.Image = "rbxassetid://15808237787"
+
+UI.Console_2.Name = "Console"
+UI.Console_2.Parent = UI.left
+UI.Console_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.Console_2.BackgroundTransparency = 1.000
+UI.Console_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.Console_2.BorderSizePixel = 0
+UI.Console_2.Position = UDim2.new(0.229636818, 0, 0.497414708, 0)
+UI.Console_2.Size = UDim2.new(0.507246375, 0, 0.115894042, 0)
+UI.Console_2.Image = "rbxassetid://15808240009"
+
+UI.search_2.Name = "search"
+UI.search_2.Parent = UI.left
+UI.search_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.search_2.BackgroundTransparency = 1.000
+UI.search_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.search_2.BorderSizePixel = 0
+UI.search_2.Position = UDim2.new(0.229636818, 0, 0.647632599, 0)
+UI.search_2.Size = UDim2.new(0.507246375, 0, 0.115894042, 0)
+UI.search_2.Image = "rbxassetid://13588228646"
+
+UI.settings_2.Name = "settings"
+UI.settings_2.Parent = UI.left
+UI.settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.settings_2.BackgroundTransparency = 1.000
+UI.settings_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.settings_2.BorderSizePixel = 0
+UI.settings_2.Position = UDim2.new(0.229636818, 0, 0.79785037, 0)
+UI.settings_2.Size = UDim2.new(0.507246375, 0, 0.115894042, 0)
+UI.settings_2.Image = "rbxassetid://13608708787"
+
+UI.home_2.Name = "home"
+UI.home_2.Parent = UI.left
+UI.home_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.home_2.BackgroundTransparency = 1.000
+UI.home_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.home_2.BorderSizePixel = 0
+UI.home_2.Position = UDim2.new(0.229636818, 0, 0.19697915, 0)
+UI.home_2.Size = UDim2.new(0.507246375, 0, 0.115894042, 0)
+UI.home_2.Image = "rbxassetid://15808235684"
+
+UI.UIAspectRatioConstraint_10.Parent = UI.left
+UI.UIAspectRatioConstraint_10.AspectRatio = 0.228
+
+UI.ImageButton_2.Parent = UI.UI
+UI.ImageButton_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+UI.ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.ImageButton_2.BorderSizePixel = 0
+UI.ImageButton_2.Position = UDim2.new(0.0202728137, 0, 0.145449713, 0)
+UI.ImageButton_2.Size = UDim2.new(0.0469999984, 0, 0.0869999975, 0)
+UI.ImageButton_2.ZIndex = 999999999
+UI.ImageButton_2.Image = "rbxassetid://15782053121"
+
+UI.UICorner_52.Parent = UI.ImageButton_2
+
+UI.UIAspectRatioConstraint_11.Parent = UI.ImageButton_2
+UI.UIAspectRatioConstraint_11.AspectRatio = 0.996
+
+UI.UIStroke.Thickness = 2
+UI.UIStroke.Transparency = 0.5
+UI.UIStroke.Parent = UI.main
+
+UI.UIStroke_2.Thickness = 2
+UI.UIStroke_2.Transparency = 0.5
+UI.UIStroke_2.Parent = UI.close
+
+UI.UIStroke_3.Thickness = 2
+UI.UIStroke_3.Transparency = 0.5
+UI.UIStroke_3.Parent = UI.up
+
+UI.UIStroke_4.Thickness = 2
+UI.UIStroke_4.Transparency = 0.5
+UI.UIStroke_4.Parent = UI.all
+
+UI.UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_5.Thickness = 2
+UI.UIStroke_5.Transparency = 0.5
+UI.UIStroke_5.Parent = UI.p
+
+UI.UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_6.Color = Color3.fromRGB(61, 59, 61)
+UI.UIStroke_6.Thickness = 1.5
+UI.UIStroke_6.Parent = UI.Frame_2
+
+UI.UIStroke_7.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_7.Color = Color3.fromRGB(61, 59, 61)
+UI.UIStroke_7.Thickness = 1.5
+UI.UIStroke_7.Parent = UI.ScrollingFrame_2
+
+UI.UIStroke_8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_8.Color = Color3.fromRGB(61, 59, 61)
+UI.UIStroke_8.Thickness = 1.5
+UI.UIStroke_8.Parent = UI.Frame_4
+
+UI.UIStroke_9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_9.Color = Color3.fromRGB(61, 59, 61)
+UI.UIStroke_9.Thickness = 1.5
+UI.UIStroke_9.Parent = UI.ScrollingFrame_3
+
+UI.UIStroke_10.Thickness = 2
+UI.UIStroke_10.Transparency = 0.5
+UI.UIStroke_10.Parent = UI.TextButton_3
+
+UI.UIStroke_11.Thickness = 2
+UI.UIStroke_11.Transparency = 0.5
+UI.UIStroke_11.Parent = UI.TextBox_2
+
+UI.UIStroke_12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_12.Color = Color3.fromRGB(29, 29, 29)
+UI.UIStroke_12.Thickness = 10
+UI.UIStroke_12.Parent = UI.ImageLabel_3
+
+UI.UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_13.Color = Color3.fromRGB(29, 29, 29)
+UI.UIStroke_13.Thickness = 10
+UI.UIStroke_13.Parent = UI.ImageLabel_4
+
+UI.UIStroke_14.Color = Color3.fromRGB(255, 255, 255)
+UI.UIStroke_14.Parent = UI.ImageLabel_5
+
+UI.UIStroke_15.Color = Color3.fromRGB(255, 255, 255)
+UI.UIStroke_15.Parent = UI.ImageLabel_6
+
+UI.UIStroke_16.Color = Color3.fromRGB(255, 255, 255)
+UI.UIStroke_16.Parent = UI.ImageLabel_7
+
+UI.UIStroke_17.Thickness = 2
+UI.UIStroke_17.Transparency = 0.5
+UI.UIStroke_17.Parent = UI.l8327558235238528
+
+UI.UIStroke_18.Thickness = 2
+UI.UIStroke_18.Transparency = 0.5
+UI.UIStroke_18.Parent = UI.left
+
+UI.UIStroke_19.Thickness = 2
+UI.UIStroke_19.Transparency = 0.5
+UI.UIStroke_19.Parent = UI.logo
+
+UI.UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UI.UIStroke_20.Thickness = 3
+UI.UIStroke_20.Parent = UI.ImageButton_2
+
+
+-- Scripts:
+
+local function SFVQCH_fake_script() -- UI.home.LocalScript 
+	local script = Instance.new('LocalScript', UI.home)
+
+	local imageLabel = script.Parent.ginfo.ImageLabel
+
+	local function updateGameInfo()
+		local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+
+		local gameId = game.PlaceId
+
+		local playerCount = #game.Players:GetPlayers()
+
+		script.Parent.ginfo.gname.Text = "Game Name: " .. gameName
+		script.Parent.ginfo.guser.Text = "Game ID: " .. gameId
+		script.Parent.ginfo.plrs.Text = "Players: " .. playerCount
+		local gameId = game.PlaceId
+		local PLACEID = gameId
+		script.Parent.ginfo.ImageLabel.Image = "https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid="..PLACEID.."&fmt=png&wd=420&ht=420"
+	end
+
+	updateGameInfo()
+
+	game.Players.PlayerAdded:Connect(updateGameInfo)
+	game.Players.PlayerRemoving:Connect(updateGameInfo)
+
+	local RunService = game:GetService("RunService")
+	RunService.RenderStepped:Connect(function(frame)
+		script.Parent.ginfo.fps.Text = ("FPS: "..math.round(1/frame)) 
+	end)
+	script.Parent.info.u.Text = game:GetService("Players").LocalPlayer.Name
+	script.Parent.info.d.Text = game:GetService("Players").LocalPlayer.DisplayName
+
+	local Date = os.date("*t")
+	local Month = Date.month
+	local Day = Date.day
+	local Year = Date.year
+	local Hour = (Date.hour) % 24
+	local AmOrPm = Hour < 12 and "AM" or "PM"
+	local Time = string.format("%02i:%02i %s", ((Hour - 1) % 12) + 1, Date.min, AmOrPm)
+	local DateAndTime = Day.."/"..Month.."/"..Year.." "
+	script.Parent.info.da.Text = "Date: "..(DateAndTime)
+	script.Parent.info.t.Text = "Time: "..Time
+	while wait(60) do
+		script.Parent.info.da.Text = "Date: "..(DateAndTime)
+		script.Parent.info.t.Text = "Time: "..Time
+	end
+
+end
+coroutine.wrap(SFVQCH_fake_script)()
+local function AZOEK_fake_script() -- UI.main.LocalScript 
+	local script = Instance.new('LocalScript', UI.main)
+
+	local main = script.Parent
+	local bruh = script.Parent.Parent
+
+	local all = main.all
+	local left = bruh.left
+	local up = main.up
+
+	local f1 = all.home
+	local f2 = all.executor
+	local f3 = all.console
+	local f4 = all.search
+	local f5 = all.settings
+	local b1 = left.home
+	local b2 = left.Executor
+	local b3 = left.Console
+	local b4 = left.search
+	local b5 = left.settings
+	local close = script.Parent.close.ImageButton
+	local show = bruh.ImageButton
+
+	main.Position = UDim2.new(0.22, 0,3, 0)
+	show.Position = UDim2.new(0.012, 0,0.145, 0)
+	left.Position = UDim2.new(-1.0, 0,0.257, 0)
+	b1.MouseButton1Click:Connect(function()
+		f1.Visible =  true
+		f2.Visible = false
+		f3.Visible = false
+		f4.Visible = false
+		f5.Visible = false
+	end)
+	b2.MouseButton1Click:Connect(function()
+		f1.Visible = false
+		f2.Visible = true
+		f3.Visible = false
+		f4.Visible = false
+		f5.Visible = false
+	end)
+	b3.MouseButton1Click:Connect(function()
+		f1.Visible = false
+		f2.Visible = false
+		f3.Visible = true
+		f4.Visible = false
+		f5.Visible = false
+	end)
+	b4.MouseButton1Click:Connect(function()
+		f1.Visible = false
+		f2.Visible = false
+		f3.Visible = false
+		f4.Visible = true
+		f5.Visible = false
+	end)
+	b5.MouseButton1Click:Connect(function()
+		f1.Visible = false
+		f2.Visible = false
+		f3.Visible = false
+		f4.Visible = false
+		f5.Visible = true
+	end)
+	close.MouseButton1Click:Connect(function()
+		game.TweenService:Create(main, TweenInfo.new(1), {Position = UDim2.new(0.22, 0,3, 0)}):Play()
+		game.TweenService:Create(show, TweenInfo.new(1), {Position = UDim2.new(0.012, 0,0.145, 0)}):Play()
+		game.TweenService:Create(left, TweenInfo.new(1), {Position = UDim2.new(-1.0, 0,0.257, 0)}):Play()
+	end)
+	show.MouseButton1Click:Connect(function()
+		game.TweenService:Create(main, TweenInfo.new(1), {Position = UDim2.new(0.22, 0,0.195, 0)}):Play()
+		game.TweenService:Create(show, TweenInfo.new(1), {Position = UDim2.new(-1.0, 0,0.145, 0)}):Play()
+		game.TweenService:Create(left, TweenInfo.new(1), {Position = UDim2.new(0.011, 0,0.257, 0)}):Play()
+	end)
+end
+coroutine.wrap(AZOEK_fake_script)()
+
+local function LTXPO_fake_script() -- UI.ImageLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', UI.ImageLabel_3)
+
+	repeat wait() until game.Players.LocalPlayer.Character ~= nil
+
+	local Player = game.Players.LocalPlayer
+
+	local UserId = game.Players.LocalPlayer.UserId
+	local ThumbType = Enum.ThumbnailType.HeadShot
+	local ThumbSize = Enum.ThumbnailSize.Size420x420
+
+	script.Parent.Image = game.Players:GetUserThumbnailAsync(UserId,ThumbType,ThumbSize)
+end
+coroutine.wrap(LTXPO_fake_script)()
+local function KXRVDSP_fake_script() -- UI.ping.LocalScript 
+	local script = Instance.new('LocalScript', UI.ping)
+
+	local PingLabel = script.Parent
+	while wait(1) do
+		local Ping = 300-((1/wait())*10)
+		if Ping < 1 then
+			Ping = 1
+		end
+		PingLabel.Text = 'Ping: '..math.floor(Ping)
+	end
+
+end
+coroutine.wrap(KXRVDSP_fake_script)()
+
+local function UWOA_fake_script() -- UI.Frame.LocalScript 
+	local script = Instance.new('LocalScript', UI.Frame)
+
+	local textLabel = script.Parent.lol
+	local txtbox = script.Parent.Parent.Source
+	while wait() do
+		textLabel.Text = txtbox.Text
+	end
+end
+coroutine.wrap(UWOA_fake_script)()
+local function PADFLRO_fake_script() -- UI.console.LocalScript 
+	local script = Instance.new('LocalScript', UI.console)
+
+	local function randomstr()
+		local str = ""
+		for i = 1, math.random(3,7) do
+			str = str .. math.random(32,126)
+		end
+		return str
+	end
+
+	local function setnotif(title, info)
+		local sgui = game:GetService("StarterGui")
+		sgui:SetCore("SendNotification", {
+			Title = title,
+			Text = info
+		})
+	end
+	local function MessageOutFunction(str, type)
+		local offset = 0
+		local bolden = false
+		local color = BrickColor.White()
+		if str:len() > 26 then
+			offset += (1/25)*(str:len()-26)
+		end
+
+		if type == Enum.MessageType.MessageWarning then -- funny statement
+
+			if warnExcluded then return end
+			color = BrickColor.Yellow()
+			bolden = true
+
+		elseif type == Enum.MessageType.MessageInfo then
+
+			if infoExcluded then return end
+			color = BrickColor.Blue()
+
+		elseif type == Enum.MessageType.MessageError then
+
+			if errorExcluded then return end
+			color = BrickColor.Red()
+			bolden = true
+
+			if str:find("\n") then
+				str = string.split(str, "\n")[1]
+			end
+
+		elseif printExcluded then return end
+
+		local scroller = script.Parent.Console.Scroller
+
+		local newline = scroller._Line_:Clone()
+		newline.Parent = scroller
+		newline.Name = "Line"
+		newline.BackgroundTransparency = 1
+		newline.TextXAlignment = Enum.TextXAlignment.Left
+		newline.Size = UDim2.new(1+offset, 0, 0.125, 0)
+		newline.TextColor = color
+		newline.Text = str
+		if bolden == true then
+			newline.FontFace.Weight = Enum.FontWeight.Bold
+		end
+	end
+
+	local gui = script.Parent
+	local console = gui.Console
+	local logservice = game:GetService("LogService")
+
+	local scroller = console.Scroller
+	scroller.AutomaticCanvasSize = Enum.AutomaticSize.XY
+
+	local layout = Instance.new("UIListLayout", scroller)
+	layout.SortOrder = Enum.SortOrder.LayoutOrder
+
+	coroutine.resume(coroutine.create(function() -- drag
+		local UIS = game:GetService('UserInputService')
+		local frame = console
+		local dragToggle = nil
+		local dragSpeed = 0.01
+		local dragStart = nil
+		local startPos = nil
+
+		local function updateInput(input)
+			local delta = input.Position - dragStart
+			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+		end
+
+		frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+				dragToggle = true
+				dragStart = input.Position
+				startPos = frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+
+		UIS.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				if dragToggle then
+					updateInput(input)
+				end
+			end
+		end)
+	end))
+
+	logservice.MessageOut:Connect(MessageOutFunction)
+
+	local buttons = console.Buttons
+	local modes = buttons.Modes
+	local bottom = buttons.BottomConsole
+
+	local function changething(btn, bool)
+		if bool == false then -- because if it isnt excluded
+			btn.Text = btn.Name:gsub("^%u", string.lower) .. ": on"
+		else
+			btn.Text = btn.Name:gsub("^%u", string.lower) .. ": off"
+		end
+	end
+
+	modes.Info.MouseButton1Click:Connect(function() infoExcluded = not infoExcluded changething(modes.Info, infoExcluded) end)
+	modes.Print.MouseButton1Click:Connect(function() printExcluded = not printExcluded changething(modes.Print, printExcluded) end)
+	modes.Warn.MouseButton1Click:Connect(function() warnExcluded = not warnExcluded changething(modes.Warn, warnExcluded) end)
+	modes.Error.MouseButton1Click:Connect(function() errorExcluded = not errorExcluded changething(modes.Error, errorExcluded) end)
+
+	bottom.Clear.MouseButton1Click:Connect(function()
+		for i, v in pairs(scroller:GetChildren()) do
+			if v:IsA("TextLabel") and v.Name ~= "_Line_" then v:Destroy() end
+		end
+		setnotif("Cleared!")
+	end)
+	bottom.Copy.MouseButton1Click:Connect(function()
+		if not setclipboard then setnotif("Error", "Your executor does not have method 'setclipboard'") return end
+		local str = ""
+		for i, v in pairs(scroller:GetChildren()) do
+			if v:IsA("TextLabel") and v.Name ~= "_Line_" then str = str .. v.Text .. "\n" end
+		end
+		setclipboard(str)
+		setnotif("setclipboard", "Operation success")
+	end)
+
+	bottom.Save.MouseButton1Click:Connect(function()
+		if not writefile then setnotif("Error", "Your executor does not have method 'writefile'") return end
+		local str = ""
+		for i, v in pairs(scroller:GetChildren()) do
+			if v:IsA("TextLabel") and v.Name ~= "_Line_" then str = str .. v.Text .. "\n" end
+		end
+		writefile("Log_" .. tostring(game.PlaceId) .. "_" .. randomstr(), str)
+	end)
+end
+coroutine.wrap(PADFLRO_fake_script)()
+local function GIRDAPD_fake_script() -- UI.ScriptFinder.LocalScript 
+	local script = Instance.new('LocalScript', UI.ScriptFinder)
+
+	local btn = script.Parent.Frame.TextButton
+
+	local function AddTab(imageTab, scriptname, source)
+		local scriptFrame = script.Parent.ScrollingFrame
+		local newList = scriptFrame.Folder.Frame:Clone()
+
+		local execute = newList.load
+		local copy = newList.copy
+		local scname = newList.TextLabel
+		local img = newList.ImageLabel
+
+		newList.Name = scriptname
+		newList.Parent = scriptFrame
+		newList.Visible = true
+
+		img.Image = imageTab
+
+		scname.Text = scriptname
+
+		execute.MouseButton1Click:Connect(function()
+			loadstring(source)()
+		end)
+		
+		copy.MouseButton1Click:Connect(function()
+			setclipboard(source)
+		end)
+	end
+
+
+	local http = game:GetService("HttpService")
+	btn.MouseButton1Click:Connect(function()
+		for _, child in ipairs(script.Parent.ScrollingFrame:GetChildren()) do
+			if child:IsA("Frame") then
+				child:Destroy()
+			end
+		end
+
+
+		local url = "https://scriptblox.com/api/script/search?filters=free&q="..script.Parent.Frame.TextBox.Text
+		local response = game:HttpGetAsync(url)
+		local decoded = http:JSONDecode(response)
+		for _, script in pairs(decoded.result.scripts) do
+			if(script.isUniversal == true) then
+				AddTab("rbxassetid://15117873611", script.title, script.script)
+			else
+				AddTab("https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid="..script.game.gameId.."&fmt=png&wd=420&ht=420", script.title, script.script)
+			end
+
+		end
+
+	end)
+
+end
+coroutine.wrap(GIRDAPD_fake_script)()
+local function VZURBG_fake_script() -- UI.ScriptHub.LocalScript 
+    local script = Instance.new('LocalScript', UI.ScriptHub)
+
+    --scripthub scripts
+    local btn = script.Parent.Frame.TextButton
+
+    local function AddScript(name, source)
+        --makefolder("Phantom")
+        writefile("Phantom/" .. name, source)
+
+        local parent = script.Parent.ScrollingFrame.Frame
+        local hub = parent.Folder.Frame
+        local newhub = hub:Clone()
+
+        local scriptname = newhub.TextLabel
+        local execbutton = newhub.p
+        local delbutton = newhub.x
+        local copybutton = newhub.c
+
+        newhub.Parent = parent
+        scriptname.Text = name
+        newhub.Visible = true
+        execbutton.MouseButton1Click:Connect(function()
+            loadstring(source)()
+        end)
+        copybutton.MouseButton1Click:Connect(function()
+            setclipboard(source)
+        end)
+        delbutton.MouseButton1Click:Connect(function()
+            newhub:Destroy()
+            delfile("Phantom/"..name)
+        end)
+    end
+
+    btn.MouseButton1Click:Connect(function()
+        AddScript(script.Parent.Frame.nm.Text, script.Parent.Frame.sr.Text, false)
+        script.Parent.Frame.nm.Text = ""
+        script.Parent.Frame.sr.Text = ""
+    end)
+
+    -- Load existing scripts
+    for _, file in ipairs(listfiles("Phantom")) do
+        local name = file:sub(9) -- Extract script name from file path
+        local source = readfile(file)
+        AddScript(name, source, true)
+    end
+end
+coroutine.wrap(VZURBG_fake_script)()
+
+
+
+
+
+
+local function blabla_fake_script() -- 
+	local script = Instance.new('LocalScript', UI.executor)
+	-- StarterGui.ayo bypassing anti cheat Haha Bruh.UI.main.all.executor.LocalScript
+	local UIS = game:GetService("UserInputService")
+	local editor = script.Parent
+	local container = editor.ScrollingFrame
+	local lineNumbers = container.TextLabel
+	local writeCode = container.Source
+	local displayCode = container.DisplayCode
+	local clearBtn = script.Parent.cle
+
+	local function updateLineNumbers()
+		local lines = string.split(writeCode.Text, "\n")
+		lineNumbers.Text = ""
+
+		for i, _ in ipairs(lines) do
+			lineNumbers.Text = lineNumbers.Text .. i .. "\n"
+		end
+	end
+
+	--local function updateDisplayCode()
+	--	local code = writeCode.Text
+		--displayCode.Text = ""
+
+		--local keywords = {"function", "if", "else", "end", "local", "for", "while", "do", "repeat", "until", "then", "elseif", "case", "switch", "default", "continue", "class", "module", "return", "try", "catch", "finally", "def", "import"}
+		--local others = {"and", "or", "not", "true", "false", "break", "in", "nil", "goto", "require", "until", "const", "extern", "static", "from", "as", "lambda", "with", "yield", "del", "pass", "raise", "global", "super", "assert", "async", "await", "loadstring", "httpget", "game", "coregui", "startergui", "workspace", "localplayer", "players"}
+
+		--code = string.gsub(code, "([%a_][%w_]*)%s*%(", '<font color="rgb(90, 189, 247)">%1</font>(')
+
+		-- Special case for print function
+		--code = string.gsub(code, "print%s*%(", '<font color="rgb(255, 255, 255)"><b>print</b></font>(')
+
+		--for _, keyword in ipairs(keywords) do
+		--	code = string.gsub(code, "%f[%a]" .. keyword .. "%f[%A]", '<font color="rgb(248, 109, 124)"><b>' .. keyword .. '</b></font>')
+		--end
+
+		--for _, other in ipairs(others) do
+        --code = string.gsub(code, "%f[%a]" .. other .. "%f[%A]", '<font color="rgb(255, 198, 0)">' .. other .. '</font>')
+		--end
+
+		--displayCode.Text = code
+	--end
+
+
+	writeCode.InputBegan:Connect(function(input, gameProcessedEvent)
+		if input.KeyCode == Enum.KeyCode.Return and not gameProcessedEvent then
+			writeCode.Text = writeCode.Text .. "\n"
+			updateLineNumbers()
+			--updateDisplayCode()
+		end
+	end)
+
+	writeCode:GetPropertyChangedSignal("Text"):Connect(function()
+		updateLineNumbers()
+		--updateDisplayCode()
+	end)
+
+	clearBtn.MouseButton1Click:Connect(function()
+		writeCode.Text = ""
+		displayCode.Text = ""
+	end)
+
+	updateLineNumbers()
+	--updateDisplayCode()
+	--llllllllllllllllllllllllllllllllllllllll
+
+	print("No Errors From Roblox Studio!")
+
+
+	local execute = script.Parent.exe
+	local copy = script.Parent.co
+	local clip = script.Parent.p
+	local txtbox = script.Parent.ScrollingFrame.Source
+
+	execute.MouseButton1Click:Connect(function()
+		loadstring(txtbox.Text)()
+	end)
+	copy.MouseButton1Click:Connect(function()
+		setclipboard(txtbox.Text)
+	end)
+	clip.MouseButton1Click:Connect(function()
+		local clipboardText = getclipboard()
+		if clipboardText then
+			local success, result = pcall(loadstring(clipboardText))
+			if not success then
+				print("Error executing clipboard content: " .. result)
+			end
+		end
+	end)
+end
+coroutine.wrap(blabla_fake_script)()
